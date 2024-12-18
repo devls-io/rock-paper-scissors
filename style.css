@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body{
+    background-color: #9bd0df ;
+   
+}
+
+h1{
+   text-align: center;
+   font-size: 2em;
+   color: #2c3e50;
+   
+}
+
+div.box{
+    text-align: center;
+    margin-top: 40px;
+    color: #2c3e50;
+}
+
+.score p{
+    font-size: 1.2em;
+    
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.buttons button{
+    flex-basis: 150px;
+    height: 150px;
+    border: 2px solid #0c8db1;
+    border-radius: 12px;
+    color: #4a6d91;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em ;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #a0c4d3;
+    transform: scale(1.1);
+}
+
+.buttons button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#reset{
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid #0c8db1;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #b0d3dd;
+    
+   
+}
+
+#reset:hover {
+    background-color: #198ad6;
+}
+
+
+.result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+
+
+
+/* screen-readers */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+}
