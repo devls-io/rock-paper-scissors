@@ -4,7 +4,7 @@
 
 ## Live Demo
 
-You can play the **Rock, Paper, Scissors** game by clicking [here](https://ls-leonardo.github.io/rock-paper-scissors/).
+You can play the **Rock, Paper, Scissors** game by clicking [here](https://devls-io.github.io/rock-paper-scissors/).
 
 
 
